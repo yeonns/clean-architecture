@@ -1,8 +1,10 @@
-package io.reflectoring.buckpal.account.domain;
+package io.reflectoring.buckpal.account.application.domain;
 
 import java.time.LocalDateTime;
 
 import io.reflectoring.buckpal.account.domain.Account.AccountId;
+import io.reflectoring.buckpal.account.domain.ActivityWindow;
+import io.reflectoring.buckpal.account.domain.Money;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static io.reflectoring.buckpal.common.ActivityTestData.*;
